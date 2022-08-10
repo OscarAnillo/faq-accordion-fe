@@ -1,0 +1,27 @@
+[
+    {
+      "id": 0,
+      "question": "How many team members can I invite?",
+      "answer": "As many as you can! Tell your friends!"
+    },
+    {
+      "id": 1,
+      "question": "What is the maximum file upload size?",
+      "answer": "No more than 2GB. All files in your account must fit your allotted storage space."
+    },
+    {
+      "id": 2,
+      "question": "How do I reset my password?",
+      "answer": "We have a nice tutorial prepared for you."
+    },
+    {
+      "id": 3,
+      "question": "Can I cancel my suscription?",
+      "answer": "Yes, you can, no questions asked."
+    },
+    {
+      "id": 4,
+      "question": "Do you provide additional support?",
+      "answer": "All you need or want, we are here for you."
+    }
+  ]
