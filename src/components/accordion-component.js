@@ -12,7 +12,7 @@ export default function AccordionComponent(){
     }
 
     return (
-        <section> 
+        <section className="section"> 
             <h1>FAQ</h1>
             <div className='faq-box'>
                 {data.map((item, i) => (
@@ -20,7 +20,7 @@ export default function AccordionComponent(){
                     onClick={() => clickHandler(i)}
                     className="inner-div">
                         <h5>{item.question}</h5>
-                        <img src='/images/icon-arrow-down.svg' alt="" />
+                        <img src='/images/icon-arrow-down.svg' alt="" className={open === i ? 'down' : ''}/>
                         <div className={open === i ? 'one' : 'one hoy'}>
                             <p>{item.answer}</p>
                         </div>
