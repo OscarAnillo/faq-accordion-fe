@@ -1,5 +1,5 @@
 import  { useState, useEffect, useRef } from 'react';
-import { gsap, timeline } from 'gsap';
+import { gsap } from 'gsap';
 
 import data from '../data/data.json'
 
