@@ -16,6 +16,7 @@
 .card {
   width: 90%;
   margin: auto;
+  max-width: 375px;
   background: #fff;
   border-radius: 20px;
   position: absolute;
