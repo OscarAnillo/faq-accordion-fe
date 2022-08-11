@@ -13,9 +13,13 @@ export default function CardComponent(){
     }, []);
 
     return (
-        <div className="card" ref={cardRef}>
-            <ImageComponent />
-            <AccordionComponent />
+        <div className="card row" ref={cardRef}>
+            <div>
+                <ImageComponent />
+            </div>
+            <div>
+                <AccordionComponent />
+            </div>
         </div>
     )
 }

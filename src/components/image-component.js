@@ -11,7 +11,9 @@ export default function ImageComponent(){
 
     return (
         <div className="bg-img" ref={divRef}>
-            <img src="/images/bg-pattern-mobile.svg" alt="" />
+            <div className='bg-img-shadow'></div>
+            <div className='bg-img-box'></div>
+            <div className='bg-img-desktop'></div>
         </div>
     )
 }
