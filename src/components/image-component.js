@@ -11,9 +11,15 @@ export default function ImageComponent(){
 
     return (
         <div className="bg-img" ref={divRef}>
-            <div className='bg-img-shadow'></div>
-            <div className='bg-img-box'></div>
-            <div className='bg-img-desktop'></div>
+            <img src="images/illustration-box-desktop.svg" alt="" className='box'/>
+                <div class="img-desktop">
+                    <img  src="./images/illustration-woman-online-desktop.svg" alt="" className='desktop'/>
+                    <img  src="./images/bg-pattern-desktop.svg" alt="" className='desktop-bg'/>
+                </div>
+                <div class="img-mobile">
+                    <img src="./images/illustration-woman-online-mobile.svg" alt="" />
+                    <img src="./images/bg-pattern-mobile.svg" alt="" className='shadow'/>
+                </div>
         </div>
     )
 }
